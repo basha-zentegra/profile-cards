@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="description" content="Abdul — Software Developer at Zentegra. Call, email, WhatsApp or save my contact.">
+    <title>Abdul · Software Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-accent="azure">
+
+<div class="backdrop" aria-hidden="true">
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+</div>
+
+<main class="stage">
+  <article class="card">
+
+    <!-- cover + avatar -->
+    <header class="card-head">
+      <div class="cover">
+        <span class="cover-pattern" aria-hidden="true"></span>
+        <span class="status-chip"><i class="bi bi-broadcast"></i> Available</span>
+      </div>
+
+      <div class="avatar-wrap">
+        <span class="avatar-fallback" aria-hidden="true">A</span>
+        <img class="avatar" src="abdul.png" alt="Portrait of Abdul" width="112" height="112"
+             onerror="this.remove()">
+        <span class="avatar-badge" title="Zentegra"><i class="bi bi-patch-check-fill"></i></span>
+      </div>
+
+      <div class="identity">
+        <h1 class="name">Abdul</h1>
+        <p class="role">Sr. Manager Technology & Delivery  <span class="dot"></span> <span class="org">Zentegra</span></p>
+        <a class="email-link" href="mailto:abdul@zentegra.com">
+          <i class="bi bi-envelope"></i> abdul@zentegra.com
+        </a>
+      </div>
+    </header>
+
+    <!-- quick facts -->
+    <ul class="facts">
+      <li>
+        <i class="bi bi-telephone"></i>
+        <div><span class="fact-label">Phone</span><span class="fact-value">+91 80561 84543</span></div>
+      </li>
+      <li>
+        <i class="bi bi-geo-alt"></i>
+        <div><span class="fact-label">Location</span><span class="fact-value">India</span></div>
+      </li>
+      <li>
+        <i class="bi bi-globe2"></i>
+        <div><span class="fact-label">Website</span><a class="fact-value" href="https://www.zentegra.com" target="_blank" rel="noopener">zentegra.com</a></div>
+      </li>
+    </ul>
+
+    <!-- actions -->
+    <nav class="actions" aria-label="Contact options">
+      <a class="actionbtn call" href="tel:+918056184543">
+        <i class="bi bi-telephone-fill"></i><span>Call Now</span>
+      </a>
+
+      <a class="actionbtn whatsapp" href="https://wa.me/918056184543?text=Hello%20I%20found%20you%20on%20Odoo" target="_blank" rel="noopener">
+        <i class="bi bi-whatsapp"></i><span>WhatsApp</span>
+      </a>
+
+      <a class="actionbtn email" href="mailto:abdul@zentegra.com?subject=Inquiry%20from%20Odoo%20Partners%20Meet">
+        <i class="bi bi-envelope-fill"></i><span>Email Now</span>
+      </a>
+
+      <a class="actionbtn save" href="abdul.vcf" download>
+        <i class="bi bi-person-vcard-fill"></i><span>Save Contact</span>
+      </a>
+
+      <button class="actionbtn share is-hidden" id="sharebtn" type="button">
+        <i class="bi bi-share-fill"></i><span>Share this card</span>
+      </button>
+    </nav>
+
+    <footer class="card-foot">
+      <span>Digital business card</span>
+      <a href="https://www.zentegra.com" target="_blank" rel="noopener">zentegra.com</a>
+    </footer>
+
+  </article>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="card.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vijey;;;;
+FN:Vijey
+ORG:Zentegra
+TITLE:Software Developer
+TEL;TYPE=CELL,VOICE:+910000000000
+EMAIL;TYPE=INTERNET,WORK:vijey@zentegra.com
+URL:https://www.zentegra.com
+ADR;TYPE=WORK:;;;;;;India
+END:VCARD
